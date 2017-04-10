@@ -1,31 +1,23 @@
-@(message: String, style: String = "java")
 
 <html>
     <head>
-        <title>EventfulWeather</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Sign up!</title>
     </head>
     <body>
         <center>
-            <b><font size="5"> EVENTFUL WEATHER</font></b><br/>&nbsp;
-
-            Sign in:
-
-            <form name ="Signin" method="post" action="@routes.CheckUser.login()">
+            <b><font size="4"> CREATE NEW ACCOUNT</font></b><br/>&nbsp;
+            <form name ="Signup" method="post" action="">
                 Enter Email: <br />
                 <input type="text" name ="email"> <br />
+
+                Enter Username: <br />
+                <input type="text" name ="username"> <br />
+
                 Enter Password: <br />
-                <input type="password" name ="password"> <br />&nbsp;
+                <input type="password" name ="password"> <br />
                 <input type="submit" value="Enter">
-            </form>&nbsp;
-
-            <form name ="newAccount" method="post" action="views.">
-                Don't have an account? Make one! -
-                <input type="submit" value="Sign up"><br />
             </form>
-
         </center>
     </body>
 </html>
-

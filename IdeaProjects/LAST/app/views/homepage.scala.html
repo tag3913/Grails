@@ -4,18 +4,15 @@
  *@
 @(message: String)
 
-@*
- * Call the `main` template with two arguments. The first
- * argument is a `String` with the title of the page, the second
- * argument is an `Html` object containing the body of the page.
- *@
-@main("Event Weather") {
 
-    @*
-     * Get an `Html` object by calling the built-in Play welcome
-     * template and passing a `String` message.
-    *   @login("HAHAH", style = "java")
-    *@
-    @login(message, style = "java")
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        Welcome
+        @message
 
-}
+    </body>
+</html>
+
