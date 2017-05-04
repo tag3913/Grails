@@ -17,7 +17,7 @@ POST    /adduser                    controllers.CheckUser.createUser()
 
 PUT     /restful/newevent           controllers.Restful.newEvent()
 
-GET     /restful/allevents/:username          controllers.Restful.getEvents(username:String)
+GET     /restful/allevents/:username      controllers.Restful.getEvents(username:String)
 
 
 # Map static resources from the /public folder to the /assets URL path
